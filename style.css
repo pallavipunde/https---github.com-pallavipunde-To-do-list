@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue; /* Light blue background */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#taskForm {
+    background-color: pink; /* Purple background for the form */
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white; /* White text on purple */
+}
+
+#taskForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#taskForm button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#saveTaskBtn {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#cancelTaskBtn {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
